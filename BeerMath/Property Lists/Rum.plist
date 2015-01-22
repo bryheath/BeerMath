@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+		<dict>
+			<key>Mount Gay Eclipse</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Jamaica</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Mount Gay Eclipse</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Bacardi Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Bicardi Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Parrot Bay Flavored (42)</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Flavored Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Parrot Bay Flavored (42)</string>
+				<key>drinkABV</key>
+				<string>21</string>
+			</dict>
+			<key>Bacardi 8 Year</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Bacardi 8 Year</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Captain Morgan Tattoo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Tattoo</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Mount Gay Premium White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Barbados</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Mount Gay Premium White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Old Mill Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Virgin Islands, USA</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Old Mill Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Captain Morgan Private Stock</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Private Stock</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Malibu Flavored</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Flavored Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Malibu Flavored</string>
+				<key>drinkABV</key>
+				<string>21</string>
+			</dict>
+			<key>Captain Morgan Black (US/CAN)</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Black (US/CAN)</string>
+				<key>drinkABV</key>
+				<string>47.3</string>
+			</dict>
+			<key>Captain Morgan Black (EUR)</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Black (EUR/S.AFR)</string>
+				<key>drinkABV</key>
+				<string>50</string>
+			</dict>
+			<key>Oronoco Fazenda Reserva</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Brazil</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Oronoco Fazenda Reserva</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Captain Morgan Long Island</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Flavored Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Long Island</string>
+				<key>drinkABV</key>
+				<string>17.5</string>
+			</dict>
+			<key>Captain Morgan Spiced Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Spiced Gold</string>
+				<key>drinkABV</key>
+				<string>37.5</string>
+			</dict>
+			<key>Rogue Dark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Newport, OR, USA</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Rogue Dark</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Captain Morgan 100</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan 100</string>
+				<key>drinkABV</key>
+				<string>50</string>
+			</dict>
+			<key>Captain Morgan Spiced</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Spiced Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Spiced</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Mount Gay Extra Old</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Barbados</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Mount Gay Extra Old</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Bacardi 151</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Bacardi 151</string>
+				<key>drinkABV</key>
+				<string>75.5</string>
+			</dict>
+			<key>Charbay Tropical Islands Cane</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>CA, USA</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Charbay Tropical Islands Cane</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Fernandes Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Trinidad</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Fernandes 19 Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>10 Cane</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Trinidad</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>10 Cane</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Captain Morgan White Rum</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan White Rum</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Fernandes Dark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Jamaica</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Fernandes Dark</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Clearheart Rum</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Cedar Rapids, IA, USA</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Clearheart Rum</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Myers Dark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Jamaica</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Myers Dark</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Whaler&apos;s Dark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mira Loma, CA, USA</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Whaler&apos;s Dark</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Captain Morgan Deluxe Dark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Dark Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Captain Morgan Deluxe Dark</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Appleton Special Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Jamaica</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Appleton Special Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>El Dorado White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Guyana</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>El Dorado White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Appleton Estate VX</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Jamaica</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Appleton Estate VX</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Barton White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Virgin Islands, USA</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Barton White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Fernandes White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Trinidad</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Fernandes White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Parrot Bay Flavored (90)</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico, USA</string>
+				<key>liquorType</key>
+				<string>Flavored Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Parrot Bay Flavored (90)</string>
+				<key>drinkABV</key>
+				<string>45</string>
+			</dict>
+			<key>Ron Castillo Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico</string>
+				<key>liquorType</key>
+				<string>Gold Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Ron Castillo Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Ron Castillo White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Ron Castillo White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Bacardi Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Puerto Rico</string>
+				<key>liquorType</key>
+				<string>Light Rum</string>
+				<key>drinkType</key>
+				<string>Rum</string>
+				<key>drinkName</key>
+				<string>Bacardi Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+		</dict>
+</plist>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tanqueray Export (UK/SE)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Bloomsbury, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Tanqueray Export (UK/SE)</string>
+		<key>drinkABV</key>
+		<string>43.1</string>
+	</dict>
+	<key>Tanqueray Special (US/CA)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Bloomsbury, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Tanqueray Special (US/CA)</string>
+		<key>drinkABV</key>
+		<string>47.3</string>
+	</dict>
+	<key>Beefeater (US/NZ)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Beefeater (US/NZ)</string>
+		<key>drinkABV</key>
+		<string>47</string>
+	</dict>
+	<key>Beefeater</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Beefeater</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Bombay Dry</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Bombay Dry</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Clearheart Dry</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Clear Rapids, IA, USA</string>
+		<key>liquorType</key>
+		<string>Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>90</string>
+		<key>drinkName</key>
+		<string>Clearheart Dry</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Bombay Sapphire</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Bombay Sapphire</string>
+		<key>drinkABV</key>
+		<string>47</string>
+	</dict>
+	<key>Gordon&apos;s London Dry</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Gordon&apos;s London Dry</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Seagram&apos;s Extra Dry</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Lawrenceburg, IN, USA</string>
+		<key>liquorType</key>
+		<string>Extra Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Seagram&apos;s Extra Dry</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Magellan</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>France</string>
+		<key>liquorType</key>
+		<string>Blue</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Magellan</string>
+		<key>drinkABV</key>
+		<string>44</string>
+	</dict>
+	<key>Hendrick&apos;s</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Girvan, SF, UK</string>
+		<key>liquorType</key>
+		<string>Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Hendrick&apos;s</string>
+		<key>drinkABV</key>
+		<string>44</string>
+	</dict>
+	<key>Plymouth (US)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Plymouth, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Plymouth (US)</string>
+		<key>drinkABV</key>
+		<string>41.2</string>
+	</dict>
+	<key>Plymouth (UK)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Plymouth, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Plymouth (UK)</string>
+		<key>drinkABV</key>
+		<string>36</string>
+	</dict>
+	<key>The Botanist</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Islay, SF, UK</string>
+		<key>liquorType</key>
+		<string>Artisanal Islay</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>The Botanist</string>
+		<key>drinkABV</key>
+		<string>46</string>
+	</dict>
+	<key>Tanqueray (AU/CA/NZ)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Bloomsbury, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Tanqueray (AU/CA/NZ)</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Bombay Sapphire East</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>Bombay Sapphire East</string>
+		<key>drinkABV</key>
+		<string>42</string>
+	</dict>
+	<key>McCormick Dry</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Trinidad</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>96</string>
+		<key>drinkName</key>
+		<string>McCormick Dry</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>South Gin</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Auckland, New Zealand</string>
+		<key>liquorType</key>
+		<string>Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>South Gin</string>
+		<key>drinkABV</key>
+		<string>40.2</string>
+	</dict>
+	<key>Broker&apos;s Gin</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>147</string>
+		<key>drinkName</key>
+		<string>Broker&apos;s Gin</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Broker&apos;s Gin 94</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>London, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>147</string>
+		<key>drinkName</key>
+		<string>Broker&apos;s Gin 94</string>
+		<key>drinkABV</key>
+		<string>47</string>
+	</dict>
+	<key>Tanqueray No. Ten</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Bloomsbury, EN, UK</string>
+		<key>liquorType</key>
+		<string>London Dry</string>
+		<key>drinkType</key>
+		<string>Gin</string>
+		<key>drinkCalories</key>
+		<string>120</string>
+		<key>drinkName</key>
+		<string>Tanqueray No. Ten</string>
+		<key>drinkABV</key>
+		<string>47.3</string>
+	</dict>
+</dict>
+</plist>

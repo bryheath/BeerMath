@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+			<key>Jack Daniels Single Barrel</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Lynchburg, TN, USA</string>
+				<key>liquorType</key>
+				<string>Tennessee Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jack Daniels Single Barrel</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Highland Park</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bowmore, Scotland</string>
+				<key>liquorType</key>
+				<string>Scotch - Single Malt</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Highland Park</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Crown Royal Black</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Amherstburg, ON, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Crown Royal Black</string>
+				<key>drinkABV</key>
+				<string>45</string>
+			</dict>
+			<key>Evan Williams White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams White</string>
+				<key>drinkABV</key>
+				<string>50</string>
+			</dict>
+			<key>Forty Creek Barrel Select</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Windsor, ON, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Forty Creek Barrel Select</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Bowmore Legend</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Urglin, Ireland</string>
+				<key>liquorType</key>
+				<string>Scotch - Single Malt</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Bowmore Legend</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Bushmills 1608</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bushmills, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Bushmills 1608</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Crown Royal</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Amherstburg, ON, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Crown Royal</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Maker&apos;s Mark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Loretto, KY, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Maker&apos;s Mark</string>
+				<key>drinkABV</key>
+				<string>91</string>
+			</dict>
+			<key>Gentleman Jack</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Lynchburg, TN, USA</string>
+				<key>liquorType</key>
+				<string>Tennessee Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Gentleman Jack</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Seagrams VO</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Montreal, QC, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Seagrams VO</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Evan Williams Black</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams Black</string>
+				<key>drinkABV</key>
+				<string>43</string>
+			</dict>
+			<key>Johnnie Walker Green</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Norwalk, CT, USA</string>
+				<key>liquorType</key>
+				<string>Scotch - Blended</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Johnnie Walker Green</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Wild Turkey 101</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Lawrenceburg, KY, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Wild Turkey 101</string>
+				<key>drinkABV</key>
+				<string>55.5</string>
+			</dict>
+			<key>J&amp;B</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>London, EN, UK</string>
+				<key>liquorType</key>
+				<string>Scotch - Blended</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>J&amp;B</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Crown Royal Maple</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Amherstburg, ON, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Crown Royal Maple</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Wild Scotsman</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Cincinati, OH, USA</string>
+				<key>liquorType</key>
+				<string>Scotch - Blended</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Wild Scotsman</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Evan Williams 1783</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams 1783</string>
+				<key>drinkABV</key>
+				<string>43</string>
+			</dict>
+			<key>Wild Turkey 81</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Lawrenceburg, KY, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Wild Turkey 81</string>
+				<key>drinkABV</key>
+				<string>40.5</string>
+			</dict>
+			<key>Jack Daniels #7 Black</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Lynchburg, TN, USA</string>
+				<key>liquorType</key>
+				<string>Tennessee Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jack Daniels #7 Black</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Canadian Mist</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Collingwood, ON, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Canadian Mist</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Jim Bean White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jim Bean White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Scapa</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Kirkwall, Scotland</string>
+				<key>liquorType</key>
+				<string>Scotch - Single Malt</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Scapa</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Evan Williams Single Barrell Vintage</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams Single Barrell</string>
+				<key>drinkABV</key>
+				<string>43.3</string>
+			</dict>
+			<key>Speyburn</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Kirkwall, Scotland</string>
+				<key>liquorType</key>
+				<string>Scotch - Single Malt</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Speyburn</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Evan Williams Blue</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams Blue</string>
+				<key>drinkABV</key>
+				<string>53.5</string>
+			</dict>
+			<key>Evan Williams Red</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams Red</string>
+				<key>drinkABV</key>
+				<string>50.5</string>
+			</dict>
+			<key>Benchmark</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Frankfort, KY, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Benchmark</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Jameson</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Cork, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jameson</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Jameson 1780</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Cork, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jameson 1780</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Canadian Club</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Windsor, ON, CA</string>
+				<key>liquorType</key>
+				<string>Canadian Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Canadian Club</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Johnnie Walker Black</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Norwalk, CT, USA</string>
+				<key>liquorType</key>
+				<string>Scotch - Blended</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Johnnie Walker Black</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Knob Creek</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Clermont, KY, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Knob Creek</string>
+				<key>drinkABV</key>
+				<string>50</string>
+			</dict>
+			<key>Jim Bean Black</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Bourbon Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jim Bean Black</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Jameson 18 Year</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Cork, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Jameson 18 Year</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>The Irishman</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Urglin, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>The Irishman</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Black Bush</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bushmills, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Black Bush</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Bushmills Original</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bushmills, Ireland</string>
+				<key>liquorType</key>
+				<string>Irish Whiskey</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Bushmills Original</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Evan Williams Green</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Bourbon</string>
+				<key>drinkType</key>
+				<string>Whiskey</string>
+				<key>drinkName</key>
+				<string>Evan Williams Green</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+</dict>
+</plist>

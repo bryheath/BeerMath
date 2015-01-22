@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>Hurricane Malt</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Hurricane Malt</string>
+			<key>drinkABV</key>
+			<real>5.9</real>
+		</dict>
+		<key>Shock Top EOTW</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top EOTW</string>
+			<key>drinkABV</key>
+			<integer>6</integer>
+		</dict>
+		<key>Budweiser Select 55</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser Select 55</string>
+			<key>drinkABV</key>
+			<real>2.4</real>
+		</dict>
+		<key>Miller GD Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Miller GD Light</string>
+			<key>drinkABV</key>
+			<real>4.5</real>
+		</dict>
+		<key>Busch</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Busch</string>
+			<key>drinkABV</key>
+			<real>4.6</real>
+		</dict>
+		<key>Dos Equis Special Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Monterrey, NL, Mexico</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Dos Equis Special Lager</string>
+			<key>drinkABV</key>
+			<real>4.45</real>
+		</dict>
+		<key>Michelob Ultra</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Michelob Ultra</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Guinness Original (IRL/UK)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Dublin, Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Guinness Original (IRL/UK)</string>
+			<key>drinkABV</key>
+			<real>4.3</real>
+		</dict>
+		<key>Smithwick&apos;s Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Dundalk, LH, Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Smithwick&apos;s Ale</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Bud Light Lime</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bud Light Lime</string>
+			<key>drinkABV</key>
+			<integer>4</integer>
+		</dict>
+		<key>Lowenbrau Original</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Munich, Germany</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Lowenbrau Original</string>
+			<key>drinkABV</key>
+			<real>5.2</real>
+		</dict>
+		<key>Shock Top Lemon Shandy</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top Lemon Shandy</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Leinenkugel&apos;s Berry Weiss</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Chippewa Falls, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Leinenkugel&apos;s Berry Weiss</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>512 Wit</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 Wit</string>
+			<key>drinkABV</key>
+			<real>5.5</real>
+		</dict>
+		<key>Hurricane Ice</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Hurricane Ice</string>
+			<key>drinkABV</key>
+			<real>7.5</real>
+		</dict>
+		<key>Foster&apos;s Lager (US)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Southbank, VI, Australia</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Foster&apos;s Lager</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Stella Artois</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Leuven, Belgium</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Stella Artois</string>
+			<key>drinkABV</key>
+			<real>5.2</real>
+		</dict>
+		<key>Arrogant Bastard Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>San Diego, CA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Arrogant Bastard Ale</string>
+			<key>drinkABV</key>
+			<real>7.2</real>
+		</dict>
+		<key>Redhook ESB</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Woodinville, WA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Redhook ESB</string>
+			<key>drinkABV</key>
+			<real>5.8</real>
+		</dict>
+		<key>Beck&apos;s Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Breman, Germany</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Beck&apos;s Light</string>
+			<key>drinkABV</key>
+			<real>3.8</real>
+		</dict>
+		<key>Sam Adams Winter Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boston, MA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sam Adams Winter Lager</string>
+			<key>drinkABV</key>
+			<real>5.8</real>
+		</dict>
+		<key>Budweiser &amp; Clamato</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser &amp; Clamato</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Natural Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Natural Light</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>St. Pauli Girl Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Bremen, Germany</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>St. Pauli Girl Lager</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Budweiser &amp; Clamato Picante</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser &amp; Clamato Picante</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Red Dog</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Red Dog</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Natural Ice</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Natural Ice</string>
+			<key>drinkABV</key>
+			<real>5.9</real>
+		</dict>
+		<key>Shiner Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner Light</string>
+			<key>drinkABV</key>
+			<real>4.03</real>
+		</dict>
+		<key>Tecate</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Monterrey, NL, Mexico</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Tecate</string>
+			<key>drinkABV</key>
+			<real>4.55</real>
+		</dict>
+		<key>512 Whiskey Double</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 Whiskey Double</string>
+			<key>drinkABV</key>
+			<real>8.19</real>
+		</dict>
+		<key>Pilsner Urquell</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Plzen, Czech Republic</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Pilsner Urquell</string>
+			<key>drinkABV</key>
+			<real>4.4</real>
+		</dict>
+		<key>Heineken</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Zoeterwoude, Netherlands</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Heineken</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Independence Pale Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Independence Pale Ale</string>
+			<key>drinkABV</key>
+			<real>5.6</real>
+		</dict>
+		<key>Harp Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Dundalk, LH, Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Harp Lager</string>
+			<key>drinkABV</key>
+			<real>4.3</real>
+		</dict>
+		<key>Old Milwaukee</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Woodridge, IL, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Old Milwaukee</string>
+			<key>drinkABV</key>
+			<real>4.6</real>
+		</dict>
+		<key>Shock Top Wheat IPA</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top Wheat IPA</string>
+			<key>drinkABV</key>
+			<real>5.8</real>
+		</dict>
+		<key>512 Pecan Porter</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 Pecan Porter</string>
+			<key>drinkABV</key>
+			<real>6.8</real>
+		</dict>
+		<key>Labatt Blue (US)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>London, ON, Canada</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Labatt Blue (US)</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Landshark Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, MI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Landshark Lager</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Dundee Honey Brown Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Rochester, NY, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Dundee Honey Brown Lager</string>
+			<key>drinkABV</key>
+			<real>4.5</real>
+		</dict>
+		<key>Miller GD</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Miller Genuine Draft</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Bud Light Platinum</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bud Light Platinum</string>
+			<key>drinkABV</key>
+			<integer>6</integer>
+		</dict>
+		<key>512 Three</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 Three</string>
+			<key>drinkABV</key>
+			<real>9.5</real>
+		</dict>
+		<key>Keystone Light (CAN)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone Light (Canada)</string>
+			<key>drinkABV</key>
+			<integer>4</integer>
+		</dict>
+		<key>Budweiser Black Crown</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser Black Crown</string>
+			<key>drinkABV</key>
+			<integer>6</integer>
+		</dict>
+		<key>Labatt Blue (Canada)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>London, ON, Canada</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Labatt Blue (Canada)</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Modelo Especial</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Mexico</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Modelo Especial</string>
+			<key>drinkABV</key>
+			<real>4.4</real>
+		</dict>
+		<key>Asahi Black</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Tokyo, Japan</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Asahi Black</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Yuengling Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Pottsville, Pennsylvania, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Yuengling Lager</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Steel Reserve HG</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, Wisconsin, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Steel Reserve HG</string>
+			<key>drinkABV</key>
+			<real>8.1</real>
+		</dict>
+		<key>Coors</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Coors</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Coors Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Coors Light</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Sam Adams Cherry Wheat</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boston, MA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sam Adams Cherry Wheat</string>
+			<key>drinkABV</key>
+			<real>5.3</real>
+		</dict>
+		<key>Firemans 4</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Blanco, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Fireman&apos;s 4</string>
+			<key>drinkABV</key>
+			<real>5.1</real>
+		</dict>
+		<key>Sierra Nevada Pale Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Chico, CA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sierra Nevada Pale Ale</string>
+			<key>drinkABV</key>
+			<real>5.6</real>
+		</dict>
+		<key>Keystone V9 (Puerto Rico)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone V9</string>
+			<key>drinkABV</key>
+			<real>5.9</real>
+		</dict>
+		<key>Imperial</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>San Jose, Costa Rica</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Imperial</string>
+			<key>drinkABV</key>
+			<real>4.6</real>
+		</dict>
+		<key>Shock Top Honeycrisp Apple Wheat</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top Honeycrisp Apple Wheat</string>
+			<key>drinkABV</key>
+			<real>5.8</real>
+		</dict>
+		<key>Miller GD 64</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Miller GD 64</string>
+			<key>drinkABV</key>
+			<real>2.8</real>
+		</dict>
+		<key>Mickey&apos;s Fine Malt Liquor</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Mickey&apos;s Fine Malt Liquor</string>
+			<key>drinkABV</key>
+			<real>5.6</real>
+		</dict>
+		<key>Bud Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, MO, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bud Light</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>O&apos;Doul&apos;s</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, MO, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>O&apos;Doul&apos;s</string>
+			<key>drinkABV</key>
+			<real>0.4</real>
+		</dict>
+		<key>Michelob Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, MO, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Michelob Light</string>
+			<key>drinkABV</key>
+			<real>4.3</real>
+		</dict>
+		<key>Bud Light Lime-A-Rita</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bud Light Lime-A-Rita</string>
+			<key>drinkABV</key>
+			<integer>8</integer>
+		</dict>
+		<key>Keystone Light (USA)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone Light</string>
+			<key>drinkABV</key>
+			<real>4.13</real>
+		</dict>
+		<key>Blue Moon</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Blue Moon</string>
+			<key>drinkABV</key>
+			<real>5.4</real>
+		</dict>
+		<key>Miller High Life Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Miller High Life Light</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Newcastle Brown Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Tadcaster, EN, UK</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Newcastle Brown Ale</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Hurricane HG Malt</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Hurricane HG Malt</string>
+			<key>drinkABV</key>
+			<real>8.1</real>
+		</dict>
+		<key>Guinness Extra Stout (US/CAN)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Guinness Extra Stout (US/CAN)</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Shiner Wild Hare</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner Wild Hare</string>
+			<key>drinkABV</key>
+			<real>5.7</real>
+		</dict>
+		<key>Magic Hat #9</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>S. Burlington, VT, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Magic Hat #9</string>
+			<key>drinkABV</key>
+			<real>5.1</real>
+		</dict>
+		<key>Keystone Premium</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone Premium</string>
+			<key>drinkABV</key>
+			<real>4.43</real>
+		</dict>
+		<key>Budweiser</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Hoegaarden</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Hoegaarden, Belgium</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Hoegaarden</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Guinness Extra Stout (EUR)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Dublin, Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Guinness Extra Stout (EUR)</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Shock Top Raspberry Wheat</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top Raspberry Wheat</string>
+			<key>drinkABV</key>
+			<real>5.2</real>
+		</dict>
+		<key>Keystone Ice</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone Ice</string>
+			<key>drinkABV</key>
+			<real>5.9</real>
+		</dict>
+		<key>Moosehead Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. John, NL, Canada</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Moosehead Lager</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Killian&apos;s Irish Red</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, CO, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Killian&apos;s Irish Red</string>
+			<key>drinkABV</key>
+			<real>4.98</real>
+		</dict>
+		<key>Ziegen Bock</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Houston, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Ziegen Bock</string>
+			<key>drinkABV</key>
+			<integer>4</integer>
+		</dict>
+		<key>Sapporo Premium</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Tokyo, Japan</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sapporo Premium</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Bass Pale Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Burton, EN, UK</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bass Pale Ale</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Guinness Extra Stout (AUS/JPN)</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Dublin, Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Guinness Extra Stout (AUS/JPN)</string>
+			<key>drinkABV</key>
+			<integer>6</integer>
+		</dict>
+		<key>Lone Star</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>San Antonio, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Lone Star</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Corona Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Mexico</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Corona Light</string>
+			<key>drinkABV</key>
+			<real>3.7</real>
+		</dict>
+		<key>512 Four</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 Four</string>
+			<key>drinkABV</key>
+			<real>7.5</real>
+		</dict>
+		<key>Austin Amber</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Austin Amber</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Sierra Nevada Bigfoot Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Chico, CA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sierra Nevada Bigfoot Ale</string>
+			<key>drinkABV</key>
+			<real>9.6</real>
+		</dict>
+		<key>Shiner Black</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner Black</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Budweiser Select</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser Select</string>
+			<key>drinkABV</key>
+			<real>4.3</real>
+		</dict>
+		<key>Blue Moon Valencia Grove</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Blue Moon Valencia Grove</string>
+			<key>drinkABV</key>
+			<real>5.9</real>
+		</dict>
+		<key>Olde English 800</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Olde English 800</string>
+			<key>drinkABV</key>
+			<real>5.9</real>
+		</dict>
+		<key>Shock Top Belgian White</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top Belgian White</string>
+			<key>drinkABV</key>
+			<real>5.2</real>
+		</dict>
+		<key>Amstel Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Zoeterwoude, Netherlands</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Amstel Light</string>
+			<key>drinkABV</key>
+			<real>3.5</real>
+		</dict>
+		<key>Sam Adams Boston Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boston, MA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sam Adams Boston Lager</string>
+			<key>drinkABV</key>
+			<real>4.75</real>
+		</dict>
+		<key>Colt 45 Malt Liquor</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Colt 45 Malt Liquor</string>
+			<key>drinkABV</key>
+			<real>6.1</real>
+		</dict>
+		<key>Corona Extra</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Mexico</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Corona Extra</string>
+			<key>drinkABV</key>
+			<real>4.6</real>
+		</dict>
+		<key>Keystone Amber Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone Amber Light</string>
+			<key>drinkABV</key>
+			<real>3.5</real>
+		</dict>
+		<key>Beck&apos;s</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Breman, Germany</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Beck&apos;s</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Shiner 102 Double Wheat</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner 102 Double Wheat</string>
+			<key>drinkABV</key>
+			<real>6.2</real>
+		</dict>
+		<key>Busch Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Busch Light</string>
+			<key>drinkABV</key>
+			<real>4.1</real>
+		</dict>
+		<key>Miller High Life</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Miller High Life</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Milwaukee&apos;s Best Premium</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Milwaukee&apos;s Best Premium</string>
+			<key>drinkABV</key>
+			<real>4.3</real>
+		</dict>
+		<key>Miller Lite</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Miller Lite</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>512 IPA</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 IPA</string>
+			<key>drinkABV</key>
+			<real>6.5</real>
+		</dict>
+		<key>Bud Light Lime Straw-Ber-Rita</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bud Light Lime Straw-Ber-Rita</string>
+			<key>drinkABV</key>
+			<integer>8</integer>
+		</dict>
+		<key>Shock Top Pumpkin Wheat</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shock Top Pumpkin Wheat</string>
+			<key>drinkABV</key>
+			<real>5.2</real>
+		</dict>
+		<key>Guinness Draught</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Ireland</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Guinness</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Icehouse</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Milwaukee, Wisconsin, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Icehouse</string>
+			<key>drinkABV</key>
+			<real>5.5</real>
+		</dict>
+		<key>Grolsch Premium Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boekelo, Netherlands</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Grolsch Premium Lager</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Stone IPA</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Escondido, CA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Stone IPA</string>
+			<key>drinkABV</key>
+			<real>6.9</real>
+		</dict>
+		<key>Bud Light &amp; Clamato</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Bud Light &amp; Clamato</string>
+			<key>drinkABV</key>
+			<real>4.2</real>
+		</dict>
+		<key>Molson Canadian</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Ontario, Canada</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Molson Canadian</string>
+			<key>drinkABV</key>
+			<real>5.1</real>
+		</dict>
+		<key>Sam Adams Holiday Porter</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boston, MA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sam Adams Holiday Porter</string>
+			<key>drinkABV</key>
+			<real>5.8</real>
+		</dict>
+		<key>Rolling Rock Extra Pale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Latrobe, PA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Rolling Rock Extra Pale</string>
+			<key>drinkABV</key>
+			<real>4.6</real>
+		</dict>
+		<key>Dos Equis Amber</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Monterrey, NL, Mexico</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Dos Equis Amber</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Michelob Honey Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, MO, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Michelob Honey Lager</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Pabst Blue Ribbon</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Woodridge, Illinois, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Pabst Blue Ribbon</string>
+			<key>drinkABV</key>
+			<integer>5</integer>
+		</dict>
+		<key>Schlitz</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Woodridge, IL, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Schlitz</string>
+			<key>drinkABV</key>
+			<real>4.6</real>
+		</dict>
+		<key>Red Stripe Lager</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Kingston, Jamaica</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Red Stripe Lager</string>
+			<key>drinkABV</key>
+			<real>4.7</real>
+		</dict>
+		<key>Sam Adams Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boston, MA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sam Adams Light</string>
+			<key>drinkABV</key>
+			<integer>4</integer>
+		</dict>
+		<key>Sam Adams Summer Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Boston, MA, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Sam Adams Summer Ale</string>
+			<key>drinkABV</key>
+			<real>5.3</real>
+		</dict>
+		<key>Leinenkugel&apos;s Honey Weiss</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Chippewa Falls, WI, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Leinenkugel&apos;s Honey Weiss</string>
+			<key>drinkABV</key>
+			<real>4.92</real>
+		</dict>
+		<key>Yuengling Lager Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Pottsville, Pennsylvania, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Yuengling Lager Light</string>
+			<key>drinkABV</key>
+			<real>3.8</real>
+		</dict>
+		<key>Shiner Bock</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner Bock</string>
+			<key>drinkABV</key>
+			<real>4.41</real>
+		</dict>
+		<key>Shiner Hefeweizen</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner Hefeweizen</string>
+			<key>drinkABV</key>
+			<real>5.28</real>
+		</dict>
+		<key>512 Pale Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Austin, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>512 Pale Ale</string>
+			<key>drinkABV</key>
+			<integer>6</integer>
+		</dict>
+		<key>Shiner Blonde</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Shiner, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Shiner Blonde</string>
+			<key>drinkABV</key>
+			<real>4.4</real>
+		</dict>
+		<key>Budweiser American Ale</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>St. Louis, Missouri, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Budweiser American Ale</string>
+			<key>drinkABV</key>
+			<real>5.3</real>
+		</dict>
+		<key>Keystone Dry</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>Golden, Colorado, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Keystone Dry</string>
+			<key>drinkABV</key>
+			<real>4.9</real>
+		</dict>
+		<key>Lone Star Light</key>
+		<dict>
+			<key>drinkOrigin</key>
+			<string>San Antonio, TX, USA</string>
+			<key>drinkType</key>
+			<string>Beer</string>
+			<key>drinkName</key>
+			<string>Lone Star Light</string>
+			<key>drinkABV</key>
+			<real>3.88</real>
+		</dict>
+	</dict>
+</plist>

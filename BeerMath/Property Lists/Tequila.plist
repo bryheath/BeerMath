@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+			<key>Jose Cuervo Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Jose Cuervo Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Don Julio Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Don Julio Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Herradura Gold Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Gold Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Herradura Gold Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Dos Lunas Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Dos Lunas Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Tarantula Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Tarantula Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Don Julio 1942</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Don Julio 1942</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>El Ultimo Agave Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>El Ultimo Agave Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Jose Cuervo Black Medallion</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Jose Cuervo Black Medallion</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Dos Manos Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Dos Manos Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>1800 Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>1800 Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Milagro Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Milagro Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Don Julio Extra Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Don Julio Extra Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Cuervo La Reserva</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Cuervo La Reserva</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Tezon Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Tezon Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Los Azulejos Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Gold Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Los Azulejos Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Don Julio Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Don Julio Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Don Julio Blanco</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Don Julio Blanco</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Dos Lunas Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Dos Lunas Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Juarez Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Juarez Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>1800 Select Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>1800 Select Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>1921 Tequila Blanco</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>1921 Tequila Blanco</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Montezuma Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Gold Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Montezuma Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Patron Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Patron Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Oro Azul Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Oro Azul Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Trago Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Trago Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>1800 Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>1800 Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Rey Sol</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Rey Sol</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Trago Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Trago Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Jose Cuervo Especial Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Gold Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Jose Cuervo Especial Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Milagro Romance</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Milagro Romance</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Patron Reposado</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Reposado Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Patron Reposado</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Patron Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Patron Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Oro Azul Silver</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Oro Azul Silver</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Margaritaville Gold</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Gold Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Margaritaville Gold</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Margaritaville White</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Silver Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Margaritaville White</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+			<key>Amate Añejo</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Añejo Tequila</string>
+				<key>drinkType</key>
+				<string>Tequila</string>
+				<key>drinkName</key>
+				<string>Amate Añejo</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+</dict>
+</plist>

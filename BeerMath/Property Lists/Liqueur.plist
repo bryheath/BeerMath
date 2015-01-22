@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+			<key>Bailey&apos;s Irish Creme</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Ireland</string>
+				<key>liquorType</key>
+				<string>Creme</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Bailey&apos;s Irish Creme</string>
+				<key>drinkABV</key>
+				<string>17</string>
+			</dict>
+			<key>Absinthe Refined</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Forcalquier, France</string>
+				<key>liquorType</key>
+				<string>Anise</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Absinthe Refined</string>
+				<key>drinkABV</key>
+				<string>55</string>
+			</dict>
+			<key>Pucker Apple Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Apple Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Dekuyper Peppermint Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Apple</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Dekuyper Peppermint Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Evan Williams Cherry Reserve</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Cherry</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Evan Williams Cherry</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Pucker Island Punch Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Island Punch Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Disaronno Amaretto</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Saronno, Italy</string>
+				<key>liquorType</key>
+				<string>Amaretto</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Disaronno Amaretto</string>
+				<key>drinkABV</key>
+				<string>17</string>
+			</dict>
+			<key>Dekuyper Amaretto</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Amaretto</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Dekuyper Amaretto</string>
+				<key>drinkABV</key>
+				<string>28</string>
+			</dict>
+			<key>Southern Comfort</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>New Orleans, LA, USA</string>
+				<key>liquorType</key>
+				<string>Fruit/Spice</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Southern Comfort</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Pucker Raspberry Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Raspberry Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Evan Williams Honey Reserve</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Honey</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Evan Williams Honey</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Pucker Cherry Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Cherry Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Pucker Grape Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Grape Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Kahlúa</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Mexico</string>
+				<key>liquorType</key>
+				<string>Coffee</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Kahlúa</string>
+				<key>drinkABV</key>
+				<string>20</string>
+			</dict>
+			<key>Evan Williams Egg Nog</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Egg Nog</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Evan Williams Egg Nog</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Pucker Peach Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Peach Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Jägermeister</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Wolfenbüttel, Germany</string>
+				<key>liquorType</key>
+				<string>Digestif</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Jägermeiser</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Dekuyper Blue Curacao</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Amaretto</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Dekuyper Blue Curacao</string>
+				<key>drinkABV</key>
+				<string>30</string>
+			</dict>
+			<key>Lazzaroni Amaretto</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Ireland</string>
+				<key>liquorType</key>
+				<string>Amaretto</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Lazzaroni Amaretto</string>
+				<key>drinkABV</key>
+				<string>17</string>
+			</dict>
+			<key>Evan Williams Apple Orchard</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Bardstown, Kentucky</string>
+				<key>liquorType</key>
+				<string>Apple</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Evan Williams Apple</string>
+				<key>drinkABV</key>
+				<string>35</string>
+			</dict>
+			<key>Pucker Strawberry Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Strawberry Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Pucker Watermelon Schnapps</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Pucker Watermelon Schnapps</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Dekuyper Hot Damn</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Schnapps</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Dekuyper Hot Damn</string>
+				<key>drinkABV</key>
+				<string>15</string>
+			</dict>
+			<key>Dekuyper Triple Sec</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>Deerfield, IL, USA</string>
+				<key>liquorType</key>
+				<string>Triple Sec</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Dekuyper Triple Sec</string>
+				<key>drinkABV</key>
+				<string>30</string>
+			</dict>
+			<key>Southern Comfort Special Reserve</key>
+			<dict>
+				<key>drinkOrigin</key>
+				<string>New Orleans, LA, USA</string>
+				<key>liquorType</key>
+				<string>Fruit/Whiskey</string>
+				<key>drinkType</key>
+				<string>Liqueur</string>
+				<key>drinkName</key>
+				<string>Southern Comfort Special Reserve</string>
+				<key>drinkABV</key>
+				<string>40</string>
+			</dict>
+</dict>
+</plist>

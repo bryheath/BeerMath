@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Beer: Low Point (4.0%)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>USA</string>
+		<key>drinkName</key>
+		<string>Beer: 4.0% (Low Point)</string>
+		<key>drinkABV</key>
+		<integer>4</integer>
+		<key>drinkType</key>
+		<string>Beer</string>
+	</dict>
+	<key>Beer: Light (4.2%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 4.2% (Light)</string>
+		<key>drinkABV</key>
+		<real>4.2</real>
+	</dict>
+	<key>Beer: (5.0%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>USA</string>
+		<key>drinkName</key>
+		<string>Beer: 5.0% (Standard)</string>
+		<key>drinkABV</key>
+		<integer>5</integer>
+	</dict>
+	<key>Beer: Stronger (5.5%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 5.5% (Stronger)</string>
+		<key>drinkABV</key>
+		<real>5.5</real>
+	</dict>
+	<key>Beer: (6.0%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 6.0%</string>
+		<key>drinkABV</key>
+		<integer>6</integer>
+	</dict>
+	<key>Beer: (6.25%)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 6.25%</string>
+		<key>drinkABV</key>
+		<real>6.25</real>
+	</dict>
+	<key>Beer: (6.50%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 6.5%</string>
+		<key>drinkABV</key>
+		<real>6.5</real>
+	</dict>
+	<key>Beer: (6.75%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 6.75%</string>
+		<key>drinkABV</key>
+		<real>6.75</real>
+	</dict>
+	<key>Beer: (7.0%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 7.0%</string>
+		<key>drinkABV</key>
+		<integer>7</integer>
+	</dict>
+	<key>Beer: (7.25%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 7.25%</string>
+		<key>drinkABV</key>
+		<real>7.25</real>
+	</dict>
+	<key>Beer: (7.5%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 7.5%</string>
+		<key>drinkABV</key>
+		<real>7.5</real>
+	</dict>
+	<key>Beer: (7.75%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 7.75%</string>
+		<key>drinkABV</key>
+		<real>7.75</real>
+	</dict>
+	<key>Beer: (8.0%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 8.0%</string>
+		<key>drinkABV</key>
+		<integer>8</integer>
+	</dict>
+	<key>Beer: (8.25%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 8.25%</string>
+		<key>drinkABV</key>
+		<real>8.25</real>
+	</dict>
+	<key>Beer: (8.50%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Beer</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Beer: 8.5%</string>
+		<key>drinkABV</key>
+		<real>8.5</real>
+	</dict>
+	<key>Liquor: (05%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 05%</string>
+		<key>drinkABV</key>
+		<string>5</string>
+	</dict>
+	<key>Liquor: (10%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 10%</string>
+		<key>drinkABV</key>
+		<string>10</string>
+	</dict>
+	<key>Liquor: (15%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 15%</string>
+		<key>drinkABV</key>
+		<string>15</string>
+	</dict>
+	<key>Liquor: (20%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 20%</string>
+		<key>drinkABV</key>
+		<string>20</string>
+	</dict>
+	<key>Liquor: (21%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 21%</string>
+		<key>drinkABV</key>
+		<string>21</string>
+	</dict>
+	<key>Liquor: (25%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 25%</string>
+		<key>drinkABV</key>
+		<string>25</string>
+	</dict>
+	<key>Liquor: (30%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 30%</string>
+		<key>drinkABV</key>
+		<string>30</string>
+	</dict>
+	<key>Liquor: (35%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 35%</string>
+		<key>drinkABV</key>
+		<string>35</string>
+	</dict>
+	<key>Liquor: (37.5%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 37.5%</string>
+		<key>drinkABV</key>
+		<string>37.5</string>
+	</dict>
+	<key>Liquor: (40%) (Standard)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 40% (Standard)</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Liquor: (45%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 45%</string>
+		<key>drinkABV</key>
+		<string>45</string>
+	</dict>
+	<key>Liquor: (50%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 50%</string>
+		<key>drinkABV</key>
+		<string>50</string>
+	</dict>
+	<key>Liquor: (55%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 55%</string>
+		<key>drinkABV</key>
+		<string>55</string>
+	</dict>
+	<key>Liquor: (60%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 60%</string>
+		<key>drinkABV</key>
+		<string>60</string>
+	</dict>
+	<key>Liquor: (65%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 65%</string>
+		<key>drinkABV</key>
+		<string>65</string>
+	</dict>
+	<key>Liquor: (70%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 70%</string>
+		<key>drinkABV</key>
+		<string>70</string>
+	</dict>
+	<key>Liquor: (75%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 75%</string>
+		<key>drinkABV</key>
+		<string>75</string>
+	</dict>
+	<key>Liquor: (75.5%)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 75.5% (151)</string>
+		<key>drinkABV</key>
+		<string>75.5</string>
+	</dict>
+	<key>Liquor: (80%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 80%</string>
+		<key>drinkABV</key>
+		<string>80</string>
+	</dict>
+	<key>Liquor: (85%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 85%</string>
+		<key>drinkABV</key>
+		<string>85</string>
+	</dict>
+	<key>Liquor: (90%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 90%</string>
+		<key>drinkABV</key>
+		<string>90</string>
+	</dict>
+	<key>Liquor: (95%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Liquor</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Liquor: 95% (Everclear)</string>
+		<key>drinkABV</key>
+		<string>95</string>
+	</dict>
+	<key>Wine: (12%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Wine</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Wine: 12%</string>
+		<key>drinkABV</key>
+		<integer>12</integer>
+	</dict>
+	<key>Wine: (13%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Wine</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Wine: 13%</string>
+		<key>drinkABV</key>
+		<integer>13</integer>
+	</dict>
+	<key>Wine: (14%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Wine</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Wine: 14%</string>
+		<key>drinkABV</key>
+		<integer>14</integer>
+	</dict>
+	<key>Wine: (15%)</key>
+	<dict>
+		<key>drinkType</key>
+		<string>Wine</string>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>drinkName</key>
+		<string>Wine: 15%</string>
+		<key>drinkABV</key>
+		<integer>15</integer>
+	</dict>
+</dict>
+</plist>

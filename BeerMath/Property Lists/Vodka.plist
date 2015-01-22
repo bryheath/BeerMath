@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tanqueray Sterling</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Bloomsbury, EN, UK</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Tanqueray Sterling</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>McCormick Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>McCormick Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Skyy Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Unknown</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Skyy Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Imperial</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>France</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Imperial</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Stoli Elit</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Russia</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Stoli Elit</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>UV Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Minneapolis, MN, USA</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>UV Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Absolut</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Sweden</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Absolut Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Denaka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Denmark</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Denaka Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Reyka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Iceland</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Reyka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Seagrams Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Lawrenceburg, IN, USA</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Sagrams Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Tru Organic</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Los Angeles, CA, USA</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Tru Organic</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Prairie Organic</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Phillips, MN, USA</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Prairie Organic</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>42 Below</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>New Zealand</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>42 Below</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Clearheart Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Clear Rapids, IA, USA</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Clearheart Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Finlandia</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Finland</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Finlandia</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Ketel One</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Netherlands</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Ketel One</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>KU:L</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Poland</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>KU:L</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Stolichnaya</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Russia</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Stolichnaya</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>IS Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>England</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>IS Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Cape North</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>France</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Cape North</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Zyr Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Russia</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Zyr Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Smirnoff Red (#21)</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Russia</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Smirnoff Red (#21)</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>IDOL</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>France</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>IDOL Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Svedka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Sweden</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Svedka Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>360 Vodka</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>Weston, MO, USA</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>360 Vodka</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+	<key>Grey Goose</key>
+	<dict>
+		<key>drinkOrigin</key>
+		<string>France</string>
+		<key>liquorType</key>
+		<string>Unflavored</string>
+		<key>drinkType</key>
+		<string>Vodka</string>
+		<key>drinkName</key>
+		<string>Grey Goose</string>
+		<key>drinkABV</key>
+		<string>40</string>
+	</dict>
+</dict>
+</plist>
