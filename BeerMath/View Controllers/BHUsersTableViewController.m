@@ -1,38 +1,38 @@
 //
-//  BHConsumedDrinksTableViewController.m
+//  BHUsersTableViewController.m
 //  BeerMath
 //
-//  Created by Bryan Heath on 1/20/15.
+//  Created by Bryan Heath on 1/25/15.
 //  Copyright (c) 2015 Bryan Heath. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "BHConsumedDrinksTableViewController.h"
-#import "BHDrinkDetailViewController.h"
-#import "BHDrinkTableViewCell.h"
-#import "BHLeftMenuTableViewController.h"
-#import "ConsumedDrink.h"
-#import "DrinkSize.h"
-#import "DrinkType.h"
+#import "BHCoreDataHelper.h"
+#import "BHUsersTableViewController.h"
+#import "BHUserDetailViewController.h"
 #import "MMDrawerBarButtonItem.h"
 #import "UIViewController+MMDrawerController.h"
+#import "User.h"
 
-@interface BHConsumedDrinksTableViewController ()
+
+@interface BHUsersTableViewController ()
+
 @end
 
-@implementation BHConsumedDrinksTableViewController
+@implementation BHUsersTableViewController
 #define debug 0
-
 //=======================================================
 #pragma mark - VIEW LIFECYCLE
 //=======================================================
 
 - (void)viewDidLoad {
-    if (debug == 1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    if (debug == 1) {
+        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    }    
     [super viewDidLoad];
-    [self setupViews];
     [self setupFetch];
     [self performFetch];
+    [self setupViews];
 }
 
 //=======================================================
@@ -48,35 +48,29 @@
                                                action:@selector(leftDrawerButtonPress:)];
     [self.navigationItem setLeftBarButtonItem:leftDrawerButton animated:YES];
 }
-- (void)setupRightMenuButtons {
-    if (debug == 1) {
-        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
-    }
-    UIBarButtonItem *addBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-                                                                                  target:self
-                                                                                  action:@selector(addCustomDrink)];
-    UIBarButtonItem *favoriteBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"heart"]
-                                                                          style:UIBarButtonItemStyleBordered
-                                                                         target:self
-                                                                         action:@selector(addFavoriteDrinks)];
-    self.navigationItem.rightBarButtonItems = @[addBarButton, favoriteBarButton];
-}
-
-- (void)leftDrawerButtonPress:(id)sender{
+- (void)leftDrawerButtonPress:(id)sender {
     if (debug == 1) {
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
     [self.mm_drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
 }
 
-- (void)addCustomDrink {
+- (void)setupRightMenuButton {
     if (debug == 1) {
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
-    [self performSegueWithIdentifier:@"consumedDrinksToDrinkType" sender:nil];
-}
-- (void)addFavoriteDrinks {
+    UIBarButtonItem *addBarButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                  target:self
+                                                                                  action:@selector(rightDrawerButtonPress:)];
     
+    self.navigationItem.rightBarButtonItem = addBarButton;
+}
+
+- (void)rightDrawerButtonPress:(id)sender {
+    if (debug == 1) {
+        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    }
+    [self performSegueWithIdentifier:@"usersToUserDetail" sender:sender];
 }
 
 - (void)setupViews {
@@ -92,15 +86,11 @@
         @{NSForegroundColorAttributeName : [UIColor whiteColor],
           NSFontAttributeName : [UIFont fontWithName:@"Optima-Bold" size:17.0]};
         
-        self.navigationItem.title = @"Consumed Drinks";
+        self.navigationItem.title = @"Users";
         [self setupLeftMenuButton];
-        [self setupRightMenuButtons];
-
+        [self setupRightMenuButton];
     }
-    self.tableView.rowHeight = 50;
 }
-
-
 
 //=======================================================
 #pragma mark - CORE DATA
@@ -111,10 +101,9 @@
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
     BHCoreDataHelper *cdh   = [(AppDelegate *)[[UIApplication sharedApplication] delegate] cdh];
-    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"ConsumedDrink"];
-    request.predicate = [NSPredicate predicateWithFormat:@"user == %@", [(AppDelegate *)[[UIApplication sharedApplication] delegate] currentUser]];
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"User"];
     
-    request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"dateCreated" ascending:YES]];
+    request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"userName" ascending:YES]];
     request.fetchBatchSize  = 25;
     self.frc = [[NSFetchedResultsController alloc] initWithFetchRequest:request
                                                    managedObjectContext:cdh.context
@@ -133,25 +122,31 @@
     }
     return YES;
 }
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+    if (debug == 1) {
+        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    }
+    return nil;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (debug == 1) {
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
     
     static NSString *cellIdentifier = @"Cell";
-    BHDrinkTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!cell) {
-        cell = [[BHDrinkTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
-                                           reuseIdentifier:cellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                      reuseIdentifier:cellIdentifier];
     }
-    ConsumedDrink *consumedDrink = (ConsumedDrink *)[self.frc objectAtIndexPath:indexPath];
-    cell.nameLabel.text    = consumedDrink.drink.drinkName;
-    cell.sizeLabel.text    = [NSString stringWithFormat:@"%@oz",consumedDrink.size.size];
-    cell.quanityLabel.text = [NSString stringWithFormat:@"%@", consumedDrink.quanity];
-    cell.typeLabel.text    = consumedDrink.drink.drinkType.typeName;
+    cell.backgroundColor     = [UIColor clearColor];
+    cell.textLabel.font      = [UIFont boldSystemFontOfSize:17.0];
+    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.textLabel.text      = [(User *)[self.frc objectAtIndexPath:indexPath] userName];
+    
     return cell;
-
 }
+
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         BHCoreDataHelper *cdh   = [(AppDelegate *)[[UIApplication sharedApplication] delegate] cdh];
@@ -165,44 +160,38 @@
 //=======================================================
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self performSegueWithIdentifier:@"consumedDrinksToDetailDrink" sender:indexPath];
+    if (debug == 1) {
+        NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
+    }
+    [self performSegueWithIdentifier:@"usersToUserDetail" sender:indexPath];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 //=======================================================
 #pragma mark - NAVIGATION
 //=======================================================
-
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if (debug == 1) {
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    //    consumedDrinksToDetailDrink
-    if ([segue.identifier isEqualToString:@"consumedDrinksToDetailDrink"]) {
-        if ([segue.destinationViewController isKindOfClass:[BHDrinkDetailViewController class]]) {
-            BHDrinkDetailViewController *ddvc = segue.destinationViewController;
-            NSIndexPath *indexPath = sender;
-            ConsumedDrink *consumedDrink = (ConsumedDrink *)[self.frc objectAtIndexPath:indexPath];
-            ddvc.drink = consumedDrink.drink;
-            ddvc.quanity = consumedDrink.quanity;
-            ddvc.editFlag = YES;
-            ddvc.drinkSize = consumedDrink.size;
-            ddvc.drinkID = consumedDrink.objectID;
+    if ([segue.identifier isEqualToString:@"usersToUserDetail"]) {
+        if ([segue.destinationViewController isKindOfClass:[BHUserDetailViewController class]]) {
+            BHUserDetailViewController *userDetailVC = segue.destinationViewController;
+            
+            //Insert Statement to Load Type, sent to drinkListTVC
+            if ([sender isMemberOfClass:[NSIndexPath class]]) {
+                NSIndexPath *indexPath = sender;
+                userDetailVC.user = (User *)[self.frc objectAtIndexPath:indexPath];
+            } else if ([sender isMemberOfClass:[UIBarButtonItem class]]) {
+                userDetailVC.user = [(AppDelegate *)[[UIApplication sharedApplication] delegate]
+                                     createUser:nil
+                                     withWeight:nil
+                                     andGender:0];
+            }
 
+            
         }
     }
-    
 }
-
-//=======================================================
-#pragma mark - ACTION METHODS
-//=======================================================
-
-
-
-
-
-
 
 @end

@@ -65,10 +65,7 @@
     if ([segue.identifier isEqualToString:@"drinkListToDrinkDetail"]) {
         if ([segue.destinationViewController isKindOfClass:[BHDrinkDetailViewController class]]) {
             BHDrinkDetailViewController *drinkDetailViewController = segue.destinationViewController;
-            
-            //Insert Statement to Load Type, sent to drinkListTVC
             NSIndexPath *indexPath = sender;
-            NSLog(@"frc: %@", (Drink*)[self.frc objectAtIndexPath:indexPath]);
             drinkDetailViewController.drink = [self.frc objectAtIndexPath:indexPath];
         }
     }

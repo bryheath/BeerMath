@@ -84,6 +84,7 @@
             centerViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"drinksNavigationViewController"];
             break;
         case 2: // Switch Users
+            centerViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"usersNavigationViewController"];
             break;
         case 3: // History
             break;

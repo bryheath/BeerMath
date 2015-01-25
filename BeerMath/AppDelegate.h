@@ -19,6 +19,7 @@
 - (BHCoreDataHelper *)cdh;
 - (void)newDrink:(Drink *)drink withSize:(DrinkSize *)size quanity:(NSNumber *)quanity;
 - (void)editDrink:(Drink *)drink withSize:(DrinkSize *)size quanity:(NSNumber *)quanity objectID:(NSManagedObjectID *)objectID;
+- (User *)createUser:(NSString *)name withWeight:(NSDecimalNumber *)weight andGender:(BOOL)gender;
 
 @end
 

@@ -34,10 +34,12 @@
     if (debug == 1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     
     MMDrawerController *drawerController = (MMDrawerController*)self.window.rootViewController;
-    [drawerController setMaximumLeftDrawerWidth:200.0];
-    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
-    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
-    
+    [drawerController setMaximumLeftDrawerWidth:150.0];
+//    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+//    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
+    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeNone];
+
     [self cdh];
     //[self demo];
 
@@ -270,13 +272,17 @@
     consumedDrink.quanity = quanity;
     consumedDrink.dateCreated = [NSDate date];
     [self.currentUser addConsumedDrinksObject:consumedDrink];
+    [self.cdh saveContext];
 }
 - (void)editDrink:(Drink *)drink withSize:(DrinkSize *)size quanity:(NSNumber *)quanity objectID:(NSManagedObjectID *)objectID {
-    ConsumedDrink *consumedDrink = (ConsumedDrink *)[_coreDataHelper.context objectWithID:objectID];
+    NSError *error = nil;
+    ConsumedDrink *consumedDrink = (ConsumedDrink *)[_coreDataHelper.context existingObjectWithID:objectID
+                                                                                            error:&error];
     if (consumedDrink.drink != drink)
         consumedDrink.drink = drink;
     consumedDrink.size = size;
     consumedDrink.quanity = quanity;
+    [self.cdh saveContext];
 }
 
 - (User *)createUser:(NSString *)name withWeight:(NSDecimalNumber *)weight andGender:(BOOL)gender {
