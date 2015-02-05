@@ -56,12 +56,23 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPe-yd-pSz">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPe-yd-pSz" customClass="BHBACView">
                                 <rect key="frame" x="60" y="92" width="200" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.6666%" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="21" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKk-2S-Bks">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="42"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BPe-yd-pSz" secondAttribute="height" multiplier="1:1" id="1sM-4m-76x"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="bacLabel" destination="XKk-2S-Bks" id="k7A-AZ-5VV"/>
+                                </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drinking For: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="LA2-Je-XmD">
                                 <rect key="frame" x="16" y="300" width="288" height="24"/>
@@ -91,7 +102,7 @@
                     <navigationItem key="navigationItem" title="Home" id="qS2-wk-K6x"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="bacView" destination="BPe-yd-pSz" id="fbk-ZK-cF0"/>
+                        <outlet property="bacView" destination="BPe-yd-pSz" id="VnH-B6-0PO"/>
                         <outlet property="drinkingForLabel" destination="LA2-Je-XmD" id="yXf-Vc-XSB"/>
                         <outlet property="timeStartedDrinkingButton" destination="xsd-6q-4wL" id="iis-h6-1pz"/>
                         <outlet property="userNameButton" destination="QO8-Dg-qg2" id="siX-ME-tUD"/>

@@ -57,6 +57,7 @@
 		E2985BD31A69A09D002CF7E8 /* Vodka.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2985BCB1A69A09C002CF7E8 /* Vodka.plist */; };
 		E2985BD41A69A09D002CF7E8 /* Whiskey.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2985BCC1A69A09D002CF7E8 /* Whiskey.plist */; };
 		E2BBADC31A6DF45B00B46C9B /* BHDrinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BBADC21A6DF45B00B46C9B /* BHDrinkDetailViewController.m */; };
+		E2BFC36C1A8412D100F72DF4 /* BHBACView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BFC36B1A8412D100F72DF4 /* BHBACView.m */; };
 		E2CB3F341A7165E5009F7A4C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CB3F031A7165E4009F7A4C /* AFHTTPRequestOperation.m */; };
 		E2CB3F351A7165E5009F7A4C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CB3F051A7165E4009F7A4C /* AFHTTPRequestOperationManager.m */; };
 		E2CB3F361A7165E5009F7A4C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CB3F071A7165E4009F7A4C /* AFHTTPSessionManager.m */; };
@@ -177,6 +178,8 @@
 		E2985BCC1A69A09D002CF7E8 /* Whiskey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Whiskey.plist; path = "Property Lists/Whiskey.plist"; sourceTree = "<group>"; };
 		E2BBADC11A6DF45B00B46C9B /* BHDrinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHDrinkDetailViewController.h; path = "View Controllers/BHDrinkDetailViewController.h"; sourceTree = "<group>"; };
 		E2BBADC21A6DF45B00B46C9B /* BHDrinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHDrinkDetailViewController.m; path = "View Controllers/BHDrinkDetailViewController.m"; sourceTree = "<group>"; };
+		E2BFC36A1A8412D100F72DF4 /* BHBACView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHBACView.h; path = Views/BHBACView.h; sourceTree = "<group>"; };
+		E2BFC36B1A8412D100F72DF4 /* BHBACView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHBACView.m; path = Views/BHBACView.m; sourceTree = "<group>"; };
 		E2CB3F021A7165E4009F7A4C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		E2CB3F031A7165E4009F7A4C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		E2CB3F041A7165E4009F7A4C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -423,6 +426,8 @@
 			children = (
 				E26C9D981A681D3B00708BA8 /* BHBACButton.h */,
 				E26C9D991A681D3B00708BA8 /* BHBACButton.m */,
+				E2BFC36A1A8412D100F72DF4 /* BHBACView.h */,
+				E2BFC36B1A8412D100F72DF4 /* BHBACView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -746,6 +751,7 @@
 				E26C9DB01A6847C400708BA8 /* BeerSize.m in Sources */,
 				E26C9DBF1A6847C400708BA8 /* User.m in Sources */,
 				E2BBADC31A6DF45B00B46C9B /* BHDrinkDetailViewController.m in Sources */,
+				E2BFC36C1A8412D100F72DF4 /* BHBACView.m in Sources */,
 				E26C9DC81A6847C500708BA8 /* WineSize.m in Sources */,
 				E2CB3F3E1A7165E5009F7A4C /* MMDrawerController.m in Sources */,
 				E2CB3F3A1A7165E5009F7A4C /* AFURLRequestSerialization.m in Sources */,

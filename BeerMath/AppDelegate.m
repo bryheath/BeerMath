@@ -284,7 +284,6 @@
     consumedDrink.quanity = quanity;
     [self.cdh saveContext];
 }
-
 - (User *)createUser:(NSString *)name withWeight:(NSDecimalNumber *)weight andGender:(BOOL)gender {
     User *user = [NSEntityDescription insertNewObjectForEntityForName:@"User"
                                                inManagedObjectContext:_coreDataHelper.context];
@@ -302,6 +301,44 @@
     user.userID = [[NSNumber alloc] initWithUnsignedInt:(u_int32_t)arc4random()];
 
     return user;
+}
+
+- (NSNumber *)calculate:(NSNumber *)timePassed {
+    float estimatedBAC = 0.0000;
+    float genderCoEfficent = [self.currentUser.gender isEqualToNumber:@(1)] ? 0.68 : 0.55;
+    
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"ConsumedDrink"];
+    request.predicate = [NSPredicate predicateWithFormat:@"user == %@", self.currentUser];
+    request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"dateCreated" ascending:YES]];
+    NSFetchedResultsController *frc = [[NSFetchedResultsController alloc] initWithFetchRequest:request
+                                                                          managedObjectContext:self.cdh.context
+                                                                            sectionNameKeyPath:nil
+                                                                                     cacheName:nil];
+    if (frc) {
+        [frc.managedObjectContext performBlockAndWait:^{
+            NSError *error = nil;
+            if (![frc performFetch:&error]) {
+                NSLog(@"Fetch FAILED: %@", error);
+            }
+        }];
+    } else {
+        NSLog(@"Fetch FAILED");
+    }
+    NSArray *consumedDrinksArray = [frc fetchedObjects];
+    for (int i = 0; i < [consumedDrinksArray count]; i++) {
+        ConsumedDrink *consumedDrink = consumedDrinksArray[i];
+        float drinkStrength = [consumedDrink.drink.drinkABV floatValue] / 100;
+        float drinkSize = [consumedDrink.size.size floatValue];
+        float drinkQuanity = [consumedDrink.quanity floatValue];
+        const float gramsPerML = 23.36;
+        const float poundsToKilograms = 0.45359237;
+        float alcohol = drinkStrength * drinkSize * drinkQuanity * gramsPerML;
+        estimatedBAC += (alcohol / (([self.currentUser.userWeight floatValue] * poundsToKilograms)
+                                    * genderCoEfficent * 1000)) * 80.6;
+    }
+    estimatedBAC -= (0.015 * [timePassed floatValue]);
+    if (estimatedBAC < 0.0000) estimatedBAC = 0.0000;
+    return [NSNumber numberWithFloat:estimatedBAC];
 }
 
 @end

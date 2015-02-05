@@ -5,17 +5,20 @@
 //  Created by Bryan Heath on 1/14/15.
 //  Copyright (c) 2015 Bryan Heath. All rights reserved.
 //
-
+#import "AppDelegate.h"
 #import "BHBACButton.h"
+#import "BHBACView.h"
+#import "BHFormatter.h"
 #import "BHHomeViewController.h"
 #import "UIViewController+MMDrawerController.h"
 #import "MMDrawerBarButtonItem.h"
 #import "BHLeftMenuTableViewController.h"
+#import "User.h"
 
 @interface BHHomeViewController ()
 @property (nonatomic, strong) IBOutlet BHBACButton *userNameButton;
 @property (nonatomic, strong) IBOutlet BHBACButton *timeStartedDrinkingButton;
-@property (nonatomic, strong) IBOutlet UIView *bacView;
+@property (strong, nonatomic) IBOutlet BHBACView *bacView;
 @property (nonatomic, strong) IBOutlet UILabel *drinkingForLabel;
 @end
 
@@ -41,6 +44,19 @@
     @{NSForegroundColorAttributeName : [UIColor whiteColor],
       NSFontAttributeName : [UIFont fontWithName:@"Optima-Bold" size:17.0]};
     self.title = @"Home";
+    User *user = [(AppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
+    [self.userNameButton setTitle:user.userName forState:UIControlStateNormal];
+    id appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    NSString *bacString = [NSString stringWithFormat:@"%@%%",
+                           [[[BHFormatter sharedStore] numberFormatterWith:NSNumberFormatterDecimalStyle
+                                                              padPosition:NSNumberFormatterPadAfterSuffix
+                                                        minFractionDigits:4
+                                                        maxFractionDigits:4
+                                                         minIntegerDigits:1
+                                                         maxIntegerDigits:1] stringFromNumber:[appDelegate calculate:@(2.0)]]];
+    self.bacView.bacLabel.text = bacString;
+//    [NSString stringWithFormat:@"%@%%", [appDelegate calculate:@(2.0)]]
+    //    self.bacView.bacLabel.text
 }
 
 -(void)setupLeftMenuButton{

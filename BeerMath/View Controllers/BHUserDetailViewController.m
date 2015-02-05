@@ -46,17 +46,13 @@
                                  withWeight:nil
                                   andGender:0];
     }
-//    self.navigationController.navigationBar.topItem.title = @"Cancel";
     self.navigationController.navigationBar.topItem.hidesBackButton = YES;
     self.navigationController.navigationBar.topItem.backBarButtonItem = [[UIBarButtonItem alloc]
                                                                          initWithTitle:@"Cancel"
                                                                          style:UIBarButtonItemStylePlain
                                                                          target:nil
                                                                          action:nil];
-//        self.isSaved = NO;
-//    } else {
-//        self.isSaved = YES;
-//    }
+
     [self setupViews];
 }
 - (void)viewWillDisappear:(BOOL)animated {
