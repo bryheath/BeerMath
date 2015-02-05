@@ -6,7 +6,9 @@
 //  Copyright (c) 2015 Bryan Heath. All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "BHBACButton.h"
+#import "BHCoreDataHelper.h"
 #import "BHUserDetailViewController.h"
 #import "User.h"
 
@@ -15,12 +17,15 @@
 @property (nonatomic, strong) IBOutlet UITextField        *userWeightField;
 @property (nonatomic, strong) IBOutlet UISegmentedControl *userGenderSegmentedControl;
 @property (nonatomic, strong) IBOutlet BHBACButton        *saveButton;
+@property (nonatomic, strong) IBOutlet BHBACButton        *saveAndSelectButton;
 @property (nonatomic, strong) IBOutlet UIControl          *control;
+@property (nonatomic, strong) BHCoreDataHelper            *cdh;
+@property (nonatomic) BOOL isSaved;
 
-- (void)backgroundTapped:(id)sender;
-- (void)cancel;
+- (IBAction)backgroundTapped:(id)sender;
+- (IBAction)saveAndSelectButtonPressed;
+- (IBAction)saveButtonPressed;
 - (void)save;
-- (void)selectUser;
 - (void)refresh;
 @end
 
@@ -34,7 +39,36 @@
 - (void)viewDidLoad {
     if (debug == 1) NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     [super viewDidLoad];
+    id appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    self.cdh = [appDelegate cdh];
+    if (self.isNewUser) {
+        self.user = [appDelegate createUser:nil
+                                 withWeight:nil
+                                  andGender:0];
+    }
+//    self.navigationController.navigationBar.topItem.title = @"Cancel";
+    self.navigationController.navigationBar.topItem.hidesBackButton = YES;
+    self.navigationController.navigationBar.topItem.backBarButtonItem = [[UIBarButtonItem alloc]
+                                                                         initWithTitle:@"Cancel"
+                                                                         style:UIBarButtonItemStylePlain
+                                                                         target:nil
+                                                                         action:nil];
+//        self.isSaved = NO;
+//    } else {
+//        self.isSaved = YES;
+//    }
     [self setupViews];
+}
+- (void)viewWillDisappear:(BOOL)animated {
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
+        if (self.isNewUser == YES) {
+            NSError *error = nil;
+            [self.cdh.context deleteObject:[self.cdh.context existingObjectWithID:self.user.objectID error:&error]];
+        }
+    }
+    [super viewWillDisappear:animated];
+    [self refresh];
+    [self.view endEditing:YES];
 }
 
 //=======================================================
@@ -47,7 +81,7 @@
     if (self.navigationController) {
         self.navigationItem.title = self.user.userName;
     }
-    self.userNameField.text = self.user.userName;
+    self.userNameField.text   = self.user.userName;
     self.userWeightField.text = [NSString stringWithFormat:@"%@", self.user.userWeight];
     self.userGenderSegmentedControl.selectedSegmentIndex = [self.user.gender boolValue];
 }
@@ -56,8 +90,7 @@
 #pragma mark - UITEXTFIELDDELEGATE
 //=======================================================
 
-- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
-{
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     NSString *candidate = [textField.text stringByReplacingCharactersInRange:range withString:string];
     
     // Ensure that the local decimal seperator is used max 1 time
@@ -88,30 +121,33 @@
 - (void)backgroundTapped:(id)sender {
     [self.view endEditing:YES];
 }
-- (void)cancel {
-    //If It was a new user, remove it, if it was a current, do nothing
+- (IBAction)saveButtonPressed {
+    [self save];
+}
+- (IBAction)saveAndSelectButtonPressed {
+    [(AppDelegate *)[[UIApplication sharedApplication] delegate] setCurrentUser:self.user];
+    [self save];
+}
+- (void)dismissViewController {
     if (self.navigationController) {
         [self.navigationController popViewControllerAnimated:YES];
+    } else {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
+}
+- (void)refresh {
+    self.user.userName = self.userNameField.text;
+    self.user.userWeight = [NSDecimalNumber decimalNumberWithString:self.userWeightField.text];
+    self.user.gender = [NSNumber numberWithInteger:self.userGenderSegmentedControl.selectedSegmentIndex];
+    if (self.navigationController) {
+        self.navigationController.title = self.user.userName;
     }
 }
 - (void)save {
-    //Save Changes Here
-    if (self.navigationController) {
-        [self.navigationController popViewControllerAnimated:YES];
-    }
-}
-- (void)selectUser {
-//    [self refresh];
-//    [[BAC sharedStore] loadUser:[self user]];
-//    [[UserStore sharedStore] saveChanges];
-//    
-//    [[self tabBarController] setSelectedViewController:
-//     [[[self tabBarController] viewControllers] objectAtIndex:0]];
-//    [[self navigationController] popViewControllerAnimated:YES];
-}
-
-- (void)refresh {
-    
+    [self refresh];
+    [self.cdh saveContext];
+    self.isNewUser = NO;
+    [self dismissViewController];
 }
 
 @end

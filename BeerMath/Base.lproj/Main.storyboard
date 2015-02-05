@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C99d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YDS-gb-YPw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YDS-gb-YPw">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -189,20 +189,86 @@
             </objects>
             <point key="canvasLocation" x="615" y="1457"/>
         </scene>
-        <!--User-->
+        <!--UserDetail-->
         <scene sceneID="ZkN-ss-W60">
             <objects>
-                <viewController storyboardIdentifier="userDetailViewController" title="User" id="SYT-pC-jiW" customClass="BHUserDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="userDetailViewController" title="UserDetail" id="SYT-pC-jiW" customClass="BHUserDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dHo-fa-bfm"/>
                         <viewControllerLayoutGuide type="bottom" id="7ux-bi-94E"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="g1t-2f-ODY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <view key="view" contentMode="scaleToFill" id="g1t-2f-ODY" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fRh-BJ-cDz">
+                                <rect key="frame" x="115" y="8" width="189" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="999.9" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NAz-0N-b6W">
+                                <rect key="frame" x="115" y="46" width="58" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="z1a-NE-t8b">
+                                <rect key="frame" x="181" y="47" width="123" height="29"/>
+                                <segments>
+                                    <segment title="Female"/>
+                                    <segment title="Male"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFo-BY-f8j">
+                                <rect key="frame" x="16" y="8" width="91" height="30"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weight (lb):" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yk-Ay-kMm">
+                                <rect key="frame" x="16" y="46" width="91" height="30"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tA7-Fk-7ro" customClass="BHBACButton">
+                                <rect key="frame" x="168" y="84" width="136" height="30"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Save &amp; Select">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveAndSelectButtonPressed" destination="SYT-pC-jiW" eventType="touchUpInside" id="bOO-Bi-7iV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqD-0r-G4a" customClass="BHBACButton">
+                                <rect key="frame" x="16" y="84" width="136" height="30"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonPressed" destination="SYT-pC-jiW" eventType="touchUpInside" id="pjA-ee-9CY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="backgroundTapped:" destination="SYT-pC-jiW" eventType="touchUpInside" id="Z3K-pb-ej2"/>
+                        </connections>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="User Name" id="NGi-7b-9VI">
+                        <barButtonItem key="backBarButtonItem" title="Cancel" id="9st-Qr-hLX"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="control" destination="g1t-2f-ODY" id="RbR-Eb-XIM"/>
+                        <outlet property="saveAndSelectButton" destination="tA7-Fk-7ro" id="R7A-S8-xsr"/>
+                        <outlet property="saveButton" destination="YqD-0r-G4a" id="7SA-Zm-azr"/>
+                        <outlet property="userGenderSegmentedControl" destination="z1a-NE-t8b" id="7BD-lR-e5Q"/>
+                        <outlet property="userNameField" destination="fRh-BJ-cDz" id="rsN-Fc-tMm"/>
+                        <outlet property="userWeightField" destination="NAz-0N-b6W" id="7aw-z0-sBP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1lJ-2Z-aem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

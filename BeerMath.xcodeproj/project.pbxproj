@@ -261,11 +261,11 @@
 		E228248A1A71907100174C3B /* TableViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E2D716D01A7576700061741D /* Users */,
 				E27454CC1A6EC5BE001E53AA /* ConsumedDrinks */,
 				E26C9DD51A68487200708BA8 /* DrinkList */,
 				E26C9D9C1A68426A00708BA8 /* DrinkType */,
 				E25D4CC71A66EA87007551CA /* Left */,
+				E2D716D01A7576700061741D /* Users */,
 			);
 			name = TableViewControllers;
 			sourceTree = "<group>";

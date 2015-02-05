@@ -34,6 +34,9 @@
     [self performFetch];
     [self setupViews];
 }
+- (void)viewWillAppear:(BOOL)animated {
+    [[self tableView] reloadData];
+}
 
 //=======================================================
 #pragma mark - VIEW SETUP
@@ -120,7 +123,14 @@
     if (debug == 1) {
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
-    return YES;
+    User *cellUser = (User *)[self.frc objectAtIndexPath:indexPath];
+    User *currentUser = [(AppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
+    
+    if (cellUser == currentUser) {
+        return NO;
+    } else {
+        return YES;
+    }
 }
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
     if (debug == 1) {
@@ -139,10 +149,16 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                       reuseIdentifier:cellIdentifier];
     }
-    cell.backgroundColor     = [UIColor clearColor];
-    cell.textLabel.font      = [UIFont boldSystemFontOfSize:17.0];
+    User *user = (User *)[self.frc objectAtIndexPath:indexPath];
+    if (user == [(AppDelegate *)[[UIApplication sharedApplication] delegate] currentUser]) {
+        cell.backgroundColor     = [UIColor colorWithRed:0.00 green:0.00 blue:0.66 alpha:1.0];
+        cell.textLabel.font      = [UIFont fontWithName:@"Optima-BoldItalic" size:17.0];
+    } else {
+        cell.backgroundColor     = [UIColor clearColor];
+        cell.textLabel.font      = [UIFont fontWithName:@"Optima-Bold" size:17.0];
+    }
     cell.textLabel.textColor = [UIColor whiteColor];
-    cell.textLabel.text      = [(User *)[self.frc objectAtIndexPath:indexPath] userName];
+    cell.textLabel.text      = user.userName;
     
     return cell;
 }
@@ -183,10 +199,8 @@
                 NSIndexPath *indexPath = sender;
                 userDetailVC.user = (User *)[self.frc objectAtIndexPath:indexPath];
             } else if ([sender isMemberOfClass:[UIBarButtonItem class]]) {
-                userDetailVC.user = [(AppDelegate *)[[UIApplication sharedApplication] delegate]
-                                     createUser:nil
-                                     withWeight:nil
-                                     andGender:0];
+                
+                userDetailVC.isNewUser = YES;
             }
 
             

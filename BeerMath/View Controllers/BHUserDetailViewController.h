@@ -12,5 +12,6 @@
 @interface BHUserDetailViewController : UIViewController <UITextFieldDelegate, UINavigationBarDelegate, UINavigationControllerDelegate>
 
 @property (nonatomic, strong) User *user;
+@property (nonatomic)         BOOL  isNewUser;
 
 @end
