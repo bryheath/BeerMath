@@ -144,11 +144,7 @@
         cell = [[BHDrinkTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                            reuseIdentifier:cellIdentifier];
     }
-    ConsumedDrink *consumedDrink = (ConsumedDrink *)[self.frc objectAtIndexPath:indexPath];
-    cell.nameLabel.text    = consumedDrink.drink.drinkName;
-    cell.sizeLabel.text    = [NSString stringWithFormat:@"%@oz",consumedDrink.size.size];
-    cell.quanityLabel.text = [NSString stringWithFormat:@"%@", consumedDrink.quanity];
-    cell.typeLabel.text    = consumedDrink.drink.drinkType.typeName;
+    cell.consumedDrink = (ConsumedDrink *)[self.frc objectAtIndexPath:indexPath];
     return cell;
 
 }
